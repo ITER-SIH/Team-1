@@ -1,0 +1,252 @@
+[
+    {
+        "Q":"What does Section 171H states ?",
+        "A":"Section 171H is based on illegal payments in connection with an election.",
+        "train": true
+    },
+    {
+        "Q":"What is Section 171A to 171I of the IPC?",
+        "A":"In Indian penal code, section 171A to 171I deals with any offences relating to elections.",
+        "train": true
+    },
+    {
+        "Q":"What is the punishment for criminal conspiracy ?",
+        "A":"Whoever is a party to a criminal conspiracy to commit an offence punishable with death, imprisonment for life or rigorous imprisonment for a term of two years or upwards, shall, where no express provision is made in this Code for the punishment of such a conspiracy, be punished in the same manner as if he had abetted such offence. ",
+        "train": true
+    },
+    {
+        "Q":"Which sections are required for offenses against the state ?",
+        "A":"The sections required for offenses against state are from Section 121 to Section 130.",
+        "train": true
+    },
+    {
+        "Q":"What does section 142 states ?",
+        "A":"Chapter VIII of the indian penal code is based on the \"offences against the public tranquility\". Section 142 states that \"Whoever, being aware of facts which render any assembly an unlawful assembly, intentionally joins that assembly, or continues in it, is said to be a member of an unlawful assembly.\" ",
+        "train": true
+    },
+    {
+        "Q":"How many chapter are there in Indian Penal Code?",
+        "A":"The Indian Penal Code(IPC) is divided into 23 chapters that comprise 511 sections. It is the principal criminal code of India that defines crimes and provides punishments for almost all kinds of criminal and actionable wrongs.",
+        "train": true
+    },
+    {
+        "Q":"Which sections are based for criminal activies?",
+        "A":"The Section 120A and 120b is based on criminal activites and conspiracies.",
+        "train": true
+    },
+    {
+        "Q":"In which section of Indian Penal Code is \"Public servant\" is contained ?",
+        "A":"Section 21.",
+        "train": true
+    },
+    {
+        "Q":"What are the sections comes under the chapter \"Of Punishments\" ?",
+        "A":"Section 53 to Section 75 which also includes some repeled sections, i.e.,58, 59, 61, 62. ",
+        "train": true
+    },
+    {
+        "Q":"Nothing is an offence which is done by a child under seven years of age. This provision comes under which section ? ",
+        "A":"Section 82 is the Act of a child under seven years of age.",
+        "train": true
+    },
+    {
+        "Q":"Give an illustration for the section 88- \"Act not intended to cause death, done by consent in good faith for person's benefit \"?",
+        "A":"A, a surgeon, knowing that a particular operation is likely to cause the death of Z, who suffers under the painful complaint, but not intending to cause Z's death, and intending, in good faith, Z's benefit, performs that operation on Z, with Z's consent. A has committed no offence.",
+        "train": true
+    },
+    {
+        "Q":"Give instances of 3 sections of the Right of Private Defense.",
+        "A":"Section 96: Things done in private defence.\n Section 97: Right of private defence of the body and of property.\n Section 98: Right of private defence against the act of a person of unsound mind. etc.",
+        "train": true
+    },
+    {
+        "Q":"which sections have been repealed from the IPC ?",
+        "A":"These sections which are repealed from the IPC- 13, 15, 16, 56, 58, 59, 61, 62, 138A",
+        "train": true
+    },
+    {
+        "Q":"According to IPC, who is an Abettor ?",
+        "A":"A person abets an offence, who abets either the commission of an offence, or the commission of an act which would be an offence, if committed by a person capable by law of committing an offence with the same intention or knowledge as that of the abettor.",
+        "train": true
+    },
+    {
+        "Q":"What is the punishment for abetting commision of offence by the public or by more than 10 persons and under which section this act falls? ",
+        "A":"The person will be  punished with imprisonment of either description for a term which may extend to three years, or with fine, or with both. This act falls under Section 117. ",
+        "train": true
+    },
+    {
+        "Q":"What does Section 927 states ?",
+        "A":"Sorry, there is no Section 927 under Indian Penal Code.",
+        "train": true
+    },
+    {
+        "Q":"Does section 160 based on Rioting ?",
+        "A":"No Section 160 is not Rioting, it is the punishment for committing affray.",
+        "train": true
+    },
+    {
+        "Q":"Wearing garb or carrying token used by soldier, sailor or airman by a person not aquinted by these professions is considered as offense or not ?",
+        "A":"Whoever, not being a soldier, sailor or airman wears any garb or carries any token resembling any garb or token used by such a soldier, with the intention that it may be believed that he is such a soldier, shall be punished with imprisonment of either description for a term which may extend to three months, or with fine which may extend to five hundred rupees, or with both.",
+        "train": true
+    },
+    {
+        "Q":"What happens if waging, or attempting to wage war, or abetting waging of war, against the Government of India is done ?",
+        "A":"Whoever wages war against the Government of India, or attempts to wage such war, or abets the waging of such war, shall be punished with death, or imprisonment for life and shall also be liable to fine.",
+        "train": true
+    },
+    {
+        "Q":"What is the difference in Section 140 and Section 171 ?",
+        "A":"Both the section talks about same offense i.e. Wearing garb or carrying token used by specific profession by one who does not belong to that profession is a kind of offense, but Section 140 points towards offences relating to the army, navy and air force,whereas Section 171 towards the offenses relationg to public servants.",
+        "train": true
+    },
+    {
+        "Q":"What was section 162 before it was repealed ?",
+        "A":"Section 162 was Taking a gratification, in order, by corrupt or illegal means, to influence a public servant which was now repealed by by s. 31, ibid.",
+        "train": true
+    },
+    {
+        "Q":"What are the different offenses covered under Chapter 10 of the IPC?",
+        "A":"Somes of the offences are - Absconding to avoid service of summons of other proceeding, furnishing false information, refusing to answer public servant authorised to question, Obstructing sale of property offered for sale by authority of public servant, threat of injury to public servant, and, many others. All the offences cover different sections.",
+        "train": true
+    },
+    {
+        "Q":"Can you provide an examples or case study illustrating instances of offenses under Chapter 10?",
+        "A":"Let  A, a landholder, knowing of the commission of a murder within the limits of his estate, wilfully misinforms the Magistrate of the district that the death has occurred by accident in consequence of the bite of a snake. A is guilty of the offence defined in the Section 177 i.e.,Furnishing false information.",
+        "train": true
+    },
+    {
+        "Q":"Refusing to sign statement falls under which section of Indian Penal Code ?",
+        "A":"It is the Section 180 which states that- whoever refuses to sign any statement made by him, when required to sign that statement by a public servant legally competent to require that he shall sign that statement, shall be punished with simple imprisonment for a term which may extend to three months, or with fine which may extend to five hundred rupees, or with both.",
+        "train": true
+    },
+    {
+        "Q":"What is the punishment for giving or fabricating false evidence under Section 191 and Section 192 of the IPC?",
+        "A":"Section 193 is for the punishnent for false evidence, which is whoever intentionally gives false evidence in any of a judicial proceeding, or fabricates false evidence for the purpose of being used in any stage of a judicial proceeding, shall be punished with imprisonment of either description for a term which may extend to seven years, and shall also be liable to fine. ",
+        "train": true
+    },
+    {
+        "Q":"In a given situation where a witness being the cause of disappearance of offence and giving false information to screen offender, explain which sections of Chapter 11 of the IPC would be applicable and the potential legal consequences.",
+        "A":"Section 201: Causing disappearance of evidence of offence, or giving false information to screen offender. This Section comprises two aspects which include the disappearance of evidence and giving false information with the intention of screening the offender from legal consequences.",
+        "train": true
+    },
+    {
+        "Q":"Define \"coin\" as per the Indian Penal Code .",
+        "A":"As per IPC, Section 230 states that, Coin is metal used for the time being as money, and stamped and issued by the authority of some State or Sovereign Power in order to be so used.",
+        "train": true
+    },
+    {
+        "Q":"What is the substance of Section 236 of IPC?",
+        "A":"Section 236 is concerned with the Abetting in India the counterfeiting out of India of coin which states that whoever, being within India abets the counterfeiting of coin out of India shall be punished in the same manner as if he abetted the counterfeiting of such coin within India.",
+        "train": true
+    },
+    {
+        "Q":"What are the consequences for the Import or export of counterfeits of the Indian coin ?",
+        "A":"According to Section 238, Whoever imports into India, or exports therefrom, any counterfeit coin, which he knows or has reason to believe to be a counterfeit of Indian coin, shall be punished with Imprisonment for life, or with imprisonment of either description for a term which may extend to ten years, and shall also be liable to fine.",
+        "train": true
+    },
+    {
+        "Q":"Can you give me a real-life scenario that illustrates the offences affecting the human body?",
+        "A":"Yes, for instance, A lays sticks and turf over a pit, with the intention of thereby causing death, or with the knowledge that death is likely to be thereby caused. Z, believing the ground to be firm, treads on it, falls in and is killed. So according to Section 299, A has committed the offence of culpable homicide.",
+        "train": true
+    },
+    {
+        "Q":"In accordance with the IPC, what constitutes religious offenses?",
+        "A":"Disturbing religious assembly, trespassing on burial places, uttering words, etc., with deliberate intent to wound the religious feelings are all constitutes religious offenses.",
+        "train": true
+    },
+    {
+        "Q":"What does the Indian Penal Code (IPC) say about offenses affecting the human body ?",
+        "A":"Chapter XVI of IPC consists of all offenses affecting life, causing of Miscarriage, Injuries to unborn Children, the Exposure of Infants, the concealment of Births, Criminal Force and Assault, Kidnapping, Abduction, Slavery, Forced Labour, Sexual offences and Unnatural offences. This chapter also talks about penalties of such type of criminal violation.",
+        "train": true
+    },
+    {
+        "Q":" \"Dowry death, abetment of suicide, attempt to murder, attempt to commit culpable homicide\" ,in accordance with IPC what is common in these criminal malpractices ?",
+        "A":"According to Indian Penal Code All these offences are affecting human body. And whoever does any act with such intention or knowledge and under such circumstances, shall be punished with imprisonment,  or with fine, or with both.",
+        "train": true
+    },
+    {
+        "Q":"Could you explain the penalties for unlawfully taking coining instrument from mint ?",
+        "A":"Any individual who, lacking lawful authorization, removes from any legally established mint in India, any coining tool or instrument, shall face a potential penalty of imprisonment, which could extend up to seven years, in addition to being subject to a fine.",
+        "train": true
+    },
+    {
+        "Q":"Discuss the legal interpretation of 'thug' under the IPC ?",
+        "A":"Whoever, at any time after the passing of this Act, shall have been habitually associated with any other or others for the purpose of committing robbery or child-stealing by means of or accompanied with murder, is a thug.",
+        "train": true
+    },
+    {
+        "Q":"\"Exposure and abandonment of child under twelve years, by parent or person having care of it\", Please share some insights on this matter in compliance with the IPC. ",
+        "A":"Whoever being the father or mother of a child under the age of twelve years, or having the care of such child, shall expose or leave such child in any place with the intention of wholly abandoning such child, shall be punished with imprisonment of either description for a term which may extend to seven years, or with fine, or with both.",
+        "train": true
+    },
+    {
+        "Q":"What are the Sections in IPC relating to offences Of Kidnapping, Abduction, Slavery and Forced Labour ?",
+        "A":"Section 359 to Section 374 of chapter XVI are all criminal violances related to Kidnapping, Abduction, Slavery and Forced Labour.",
+        "train": true
+    },
+    {
+        "Q":"What are the offenses against property as defined by the IPC ?",
+        "A":"Theft, Extortion, Robbery, Dacoity, Criminal Misappropriation of Property, Criminal Breach of Trust, the Receiving of Stolen Property, Cheating, Fraudulent Deeds and Dispositions of Property, mischief, and  Criminal Trespass are the offenses mentioned in IPC. ",
+        "train": true
+    },
+    {
+        "Q":"Section 431: Mischief by injury to public road, bridge, river or channel. Explain it.",
+        "A":"Whoever commits mischief by doing any act which renders or which he knows to be likely to render any public road, bridge, navigable river or navigable channel, natural or artificial, impassable or less safe for travelling or conveying property, shall be punished with imprisonment of either description for a term which may extend to five years, or with fine, or with both.",
+        "train": true
+    },
+    {
+        "Q":"Answer in True or False: A finds the key of Z's house door, which Z had lost, and commits house-trespass by entering Z's house, having opened the door with that key. This is  Lurking house-trespass.",
+        "A":"False, this is House-breaking, which is Section 445 of Indian Penal Code.",
+        "train": true
+    },
+    {
+        "Q":"Answer in True or False: A has a letter of credit upon B for rupees 10,000, written by Z. A, in order to defraud B, adds cipher to the 10,000, and makes the sum 1,00,000 intending that it may be believed by B that Z so wrote the letter. A has committed forgery. ",
+        "A":"True , A has committed forgery according to Section 463.",
+        "train": true
+    },
+    {
+        "Q":"Can you give me a real-life scenario that illustrates the concept of forgery?",
+        "A":"A picks up a cheque on a banker signed by B, payable to bearer, but without any sum having been inserted in the cheque. A fraudulently fills up the cheque by inserting the sum of ten thousand rupees. A commits forgery.",
+        "train": true
+    },
+    {
+        "Q":"What was Section 478 before it was repealed ?",
+        "A":"Section 478 states Trade Mark which is repealed by the Trade and Merchandise Marks Act, 1958 (43 of 1958), s. 135 and Sch. (w. e. f. 25-11-1959) .",
+        "train": true
+    },
+    {
+        "Q":"What is property mark and what are the consequesces of using a false property mark ?",
+        "A":"Property mark is a mark used for denoting that movable property belongs to a particular person is called a property mark. And, whoever uses any false property markshall, unless he proves that he acted without intent to defraud, be punished with imprisonment of either description for a term which may extend to one year, or with fine, or with both.",
+        "train": true
+    },
+    {
+        "Q":"What are the Sections come  under chapter XIX ?",
+        "A":"Chapter XIX consists of Section 490 and Section 492 which are repealed and Section 491 which states the Breach of contract to attend on and supply wants of helpless person .",
+        "train": true
+    },
+    {
+        "Q":"What is the section- \"Marrying again during lifetime of husband or wife\" is about ?",
+        "A":"It is the section 494, which states that whoever, having a husband or wife living, marries in any case in which such marriage is void by reason of its taking place during the life of such husband or wife, shall be punished with imprisonment of either description for a term which may extend to seven years, and shall also be liable to fine.",
+        "train": true
+    },
+    {
+        "Q":"Chapter XXA comprises of the cruelty by husband or relatives of husband in Indian Penal Code. What does \"cruelty\" actually means here ? ",
+        "A":"\"Cruelty\" means-\n(a) anywilful conduct which is of such a nature as is likely to drive the woman to commit suicide or to cause grave injury or danger to life, limb or health of the woman;\nor\n(b) harassment of the woman where such harassment is with a view to coercing her or any person related to her to meet any unlawful demand for any property or valuable security or is on account of failure by her or any person related to her to meet such demand.",
+        "train": true
+    },
+    {
+        "Q":"Please provide a practical example for defamation.",
+        "A":"(a) Suppose A says— “Z is an honest man; he never stole B's watch”; intending to cause it to be believed that Z did steal B's watch. This is defamation, unless it fall within one of the exceptions.",
+        "train": true
+    },
+    {
+        "Q":"What is  the punishment for defamation ?",
+        "A":"In accordance with Section 500  of Indian Penal Code, Wwhoever defames another shall be punished with simple imprisonment for a term which may extend to two years, or with fine, or with both.",
+        "train": true
+    },
+    {
+        "Q":"What is the difference between Section 302 and 307 as per IPC?",
+        "A":"As per Section 302 of the Code, a person committing the offence of murder shall be punishable with Death or Life Imprisonment and shall also be liable to fine. On the other hand, Section 307 of the Code deals with the offence of Attempt to commit murder and prescribes the punishment thereof.",
+        "train": true
+    }
+]
