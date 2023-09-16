@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Legal Documentation Assistant</title>
+    <link rel="stylesheet" href="documentation.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <a href="main.html" class="logo">J.U.R.I.M.I.N.D</a>
+        </div>
+    </header>
+
+    <section id="form" class="form-section">
+        <div class="container">
+            <h2>Documentation Assistance</h2>
+            <div class="form-container">
+                <form id="document-form" enctype="multipart/form-data">
+                    <div class="group">
+                        <input type="file" id="file-input" accept=".txt, .doc, .docx, .pdf">
+                        <label for="file-input" class="icon" aria-hidden="true" viewBox="0 0 24 24">
+                            Upload Document
+                        </label>
+                    </div>
+                    <button type="button" onclick="uploadDocument()">Upload</button>
+                </form>
+
+                <div id="or-divider">OR</div>
+
+                <form id="text-form">
+                    <div class="group">
+                        <label for="text-input" class="icon" aria-hidden="true" viewBox="0 0 24 24">
+                            Enter Text
+                        </label>
+                        <textarea id="text-input" rows="4" cols="50" placeholder="Enter your text here..."></textarea>
+                    </div>
+                    <button type="button" onclick="generateFromText()">Generate from Text</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <section id="result" class="result-section">
+        <div class="container">
+            <h2>Generated Content:</h2>
+            <div id="generated-content">
+                
+            </div>
+        </div>
+    </section>
+</body>
+</html>
