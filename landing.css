@@ -221,3 +221,11 @@ button:hover {
     align-items: center;
     padding: 10px;
 }
+
+footer {
+    background-color: #2583c7;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    font-size: 14px;
+}
