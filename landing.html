@@ -10,7 +10,7 @@
     <header>
         <nav>
             <div id = "top" class="container">
-                <a class="logo">JURIMIND</a>
+                <a href="#" class="logo">JURIMIND</a>
                 <ul class="nav-links">
                     <li><a href="#features">Features</a></li>
                     <li><a href="#testimonials">Testimonials</a></li>
@@ -26,5 +26,68 @@
         </div>
         <a href="" class="signup-button">Log in</a>
     </header>
+
+    <section id="features" class="features-section">
+        <div class="container">
+            <h2>Features</h2>
+            <div class="cards">
+                <!-- Card 1 -->
+                <div class="card">
+                    <p class="card-title">AI-powered virtual legal assistant</p>
+                    <p class="small-desc">
+                        Our advanced AI algorithms has been trained under indian judiciary acts and sections and can simplify things for common people of India.
+                    </p>
+                    <div class="go-corner">
+                        <div class="go-arrow">→</div>
+                    </div>
+                </div>
+    
+                <!-- Card 2 (Your existing cards can follow here) -->
+                <div class="card">
+                    <p class="card-title">Enhanced Legal Research</p>
+                    <p class="small-desc">
+                        JURIMIND's AI-powered research platform provides comprehensive and up-to-date legal research, case analysis, and citation recommendations, enabling you to make well-informed legal arguments and stay ahead in your practice.
+                    </p>
+                    <div class="go-corner">
+                        <div class="go-arrow">→</div>
+                    </div>
+                </div>
+                <!-- Card 3 -->
+                <div class="card">
+                    <p class="card-title">Intelligent Document Analysis</p>
+                    <p class="small-desc">
+                        Our advanced AI algorithms can analyze and extract key information from legal documents, contracts, and agreements, saving you hours of manual review and ensuring accuracy.
+                    </p>
+                    <div class="go-corner">
+                        <div class="go-arrow">→</div>
+                    </div>
+                </div>
+                <!-- Card 4 --> 
+                <div class="card">
+                    <p class="card-title">Data-driven Decision Making</p>
+                    <p class="small-desc">
+                        Our AI tools provide valuable insights and predictive analytics, enabling you to make informed decisions and provide strategic legal advice to your clients.
+                    </p>
+                    <div class="go-corner">
+                        <div class="go-arrow">→</div>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+    </section>
+
+    <!-- Smooth Scrolling JavaScript -->
+    <script>
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function(e) {
+                e.preventDefault();
+
+                document.querySelector(this.getAttribute('href')).scrollIntoView({
+                    behavior: 'smooth'
+                });
+            });
+        });
+    </script>
 </body>
 </html>
