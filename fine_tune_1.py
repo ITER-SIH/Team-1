@@ -1,28 +1,24 @@
 import json
 import tempfile
 from transformers import GPT2Tokenizer, GPT2LMHeadModel, TextDataset, DataCollatorForLanguageModeling, Trainer, TrainingArguments
+import pandas as pd
 
-with open("E:/JURIMIND/v0.0.1/ipc_reduced.json", 'r', encoding='utf-8') as json_file:
-    data = json.load(json_file)
-
+data = pd.read_csv('vectorized.csv')
 
 tokenizer = GPT2Tokenizer.from_pretrained("gpt2")
 model = GPT2LMHeadModel.from_pretrained("gpt2")
 
 tokenizer.add_special_tokens({'pad_token': '[PAD]'})
 
-
-filtered_data = [example for example in data if example.get("train") == True]
-
-
 formatted_data = ""
-for item in filtered_data:
-    formatted_data += f"Chapter {item['chapter']}: {item['chapter_title']}\n"
-    formatted_data += f"Section {item['Section']}: {item['section_title']}\n"
-    formatted_data += f"Description: {item['section_desc']}\n\n"
+for index, row in data.iterrows():
+    formatted_data += f"Chapter {row['chapter']}: {row['chapter_title']}\n"
+    formatted_data += f"Section {row['Section']}: {row['section_title']}\n"
+    formatted_data += f"Description: {row['section_desc']}\n\n"
 
 
 inputs = tokenizer(formatted_data, return_tensors="pt", max_length=512, truncation=True, padding=True)
+
 
 
 with tempfile.NamedTemporaryFile(delete=False, mode="w", encoding="utf-8") as temp_file:
@@ -35,12 +31,13 @@ dataset = TextDataset(
 )
 
 
+
 data_collator = DataCollatorForLanguageModeling(tokenizer=tokenizer, mlm=False)
 
 training_args = TrainingArguments(
     output_dir="./fine_tuned_model",  
     overwrite_output_dir=True,
-    num_train_epochs=60, 
+    num_train_epochs=50, 
     per_device_train_batch_size=20,
     save_steps=10_000,
     save_total_limit=2,
