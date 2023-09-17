@@ -24,6 +24,10 @@ header {
     transition: background-color 0.3s ease;
 }
 
+header:hover {
+    background-color: #2583c7;
+}
+
 .logo {
     font-size: 24px;
     color: white;
@@ -90,6 +94,14 @@ button[type="button"]:hover {
     border-radius: 4px;
     padding: 20px;
     text-align: left;
+}
+
+footer {
+    background-color: #2583c7;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    font-size: 14px;
 }
 
 button[type="button"] {
