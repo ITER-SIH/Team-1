@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI ChatBot</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+    <header>
+        <a href="{{ url_for('main_page') }}" class="logo">J.U.R.I.M.I.N.D</a>
+        <nav class="navigation">
+            <a href="{{ url_for('landing_page') }}">Home</a>
+            <a href="{{ url_for('about_page') }}">About</a>
+            <a href="{{ url_for('main_page') }}">Services</a>
+            <a href="{{ url_for('pricing_page') }}">Pricing</a>
+        </nav>
+    </header>
+
+    <div class="chat-container">
+        <div class="chat" id="chat-box">
+            <!-- Chat messages will be dynamically added here -->
+        </div>
+        <div class="input-container">
+            <input type="text" id="user-input" placeholder="Type your message...">
+            <button id="send-button">Send</button>
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+<script>
+$(document).ready(function () {
+    $("#send-button").click(function () {
+        sendMessage();
+    });
+
+    $("#user-input").keypress(function (e) {
+        if (e.which === 13) {
+            sendMessage();
+        }
+    });
+
+    function sendMessage() {
+        var userMessage = $("#user-input").val();
+        if (userMessage.trim() === "") {
+            return;
+        }
+
+        $("#chat-box").append('<div class="user-message">' + userMessage + '</div>');
+        $("#user-input").val("");
+
+        $.ajax({
+            type: "POST",
+            url: "/api/chat",
+            data: { userMessage: userMessage },
+            success: function (data) {
+                var chatbotResponse = data.response;
+                $("#chat-box").append('<div class="chatbot-message">' + chatbotResponse + '</div>');
+                scrollChatToBottom();
+            },
+            error: function (error) {
+                console.error(error);
+            },
+        });
+    }
+
+    function scrollChatToBottom() {
+        var chatBox = document.getElementById("chat-box");
+        chatBox.scrollTop = chatBox.scrollHeight;
+    }
+});
+</script>
